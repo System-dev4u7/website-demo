@@ -19,7 +19,7 @@ h2, p {
 }
 
 header {
-    background-image: url(img/top3.jpg);
+    background-image: url('top3.jpg');
     background-position: right;
     background-size: cover;
     min-height: 50vh;
