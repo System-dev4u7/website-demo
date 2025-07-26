@@ -1,0 +1,264 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgba(62, 32, 32, 0.761);
+    color: white;
+   
+}
+
+h2, p {
+    line-height: 1.4;
+}
+
+header {
+    background-image: url(img/top3.jpg);
+    background-position: right;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 1rem;
+    color: white;
+}
+
+
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.sub__header {
+    padding: 0 2rem;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.316);
+    border-radius: 20px;
+    
+}
+.sub__header p:first-of-type {
+    font-size: 1.5rem;
+}
+.sub__header h2:first-of-type {
+    font-size: 3rem;
+}
+
+ button {
+    margin: 1rem 0;
+    padding: 0.7rem 1rem;
+    background-color: rgba(246, 134, 6, 0.981);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 5px 5px 0 white;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+   
+    
+}
+
+button:hover,
+button:focus {
+    transform: scale(1.2);
+}
+
+main {
+    margin: 2rem;
+    text-align: center;
+}
+
+.hero {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    margin: 1rem 0;
+}
+
+.hero .main-image {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero .main-image img {
+    width: 100%;
+    height: 50vh;
+    display: block;
+}
+
+.main-image .overlay {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    max-width: 50%;
+}
+
+.main-image h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.bottom-image {
+    display: flex;
+    gap: 1rem;
+}
+
+.bottom-image .image-item {
+    flex: 1;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bottom-image img {
+    width: 100%;
+    min-height: 300px;
+    display: block;
+}
+
+
+.hero__delight h2 {
+    font-size: 1.5rem;
+}
+
+.card__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: rgba(62, 32, 32, 0.761);
+    border-radius: 20px;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+
+ 
+}
+
+.card{
+    background-color: rgba(61, 16, 16, 0.995);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0 white;
+    transition: translate 0.5s ease-in-out;
+   
+}
+
+.card:hover,
+.card:focus {
+    transform: translate (20px);
+    
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    max-width:200px;
+    border-radius: 50%;
+    padding: 2rem 1.5rem;
+}
+
+.card figcaption {
+    text-transform: uppercase;
+}
+
+.Comment__section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: black;
+    margin: 5rem 0;
+    padding: 2rem 5rem;
+    text-align: center;
+    
+  
+    
+}
+
+.Comment__section img {
+    float: left;
+    border-radius: 50%;
+    padding: 2rem;
+    width: 100%;
+    max-width: 200px;
+  
+    
+    
+}
+
+.Comment__section figcaption {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+
+
+}
+
+.Comment__section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.Comment__section2 img {
+    max-width: 400px;
+    border-radius: 50px;
+    
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: black;
+    padding: 0.7rem 1rem;
+    border-radius: 20px;
+    margin: 0 1rem;
+    color: white;
+    box-shadow: 0 5px 5px 0 white;
+    
+}
+
+@media screen and (min-width: 576px) {
+    nav {
+        flex-flow: row nowrap;
+    }
+
+    .card__section {
+        flex-flow: row ;
+        justify-content: space-between;
+    }
+
+    .Comment__section{
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        
+    }
+
+    
+}
+
+
+   
+
+
+
+
+
+
+
+
+
