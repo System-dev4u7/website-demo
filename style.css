@@ -71,7 +71,7 @@ button:focus {
 }
 
 main {
-    margin: 2rem;
+
     text-align: center;
 }
 
@@ -79,7 +79,7 @@ main {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
-    margin: 1rem 0;
+    margin: 2rem;
 }
 
 .hero .main-image {
@@ -139,7 +139,7 @@ main {
     border-radius: 20px;
     gap: 2rem;
     padding: 1.5rem;
-    margin: 1rem 0;
+    margin: 1rem 2rem;
 
  
 }
