@@ -275,7 +275,9 @@ footer a {
         display: block;
     }
 
-  
+  main {
+      margin: 0;
+  }
 
 }
 
