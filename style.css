@@ -275,8 +275,8 @@ footer a {
         display: block;
     }
 
-  main {
-      margin: 0;
+  .hero {
+      margin: 1rem 0;
   }
 
 }
